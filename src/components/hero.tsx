@@ -9,8 +9,8 @@ const Hero = async() => {
     <div className="h-screen flex items-center justify-center">
       <div>
         
-        <h2 className="text-center font-bold text-3xl md:text-5xl">{data.userName}</h2>
-        <p className="text-2xl my-2 font-semibold text-center">{data.role}</p>
+        <h2 className="text-center font-bold text-3xl md:text-5xl">{data?.fullName}</h2>
+        <p className="text-2xl my-2 font-semibold text-center">{data?.email}</p>
         <p className="max-w-[400px] mx-auto text-center mt-5 font-medium">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
           dolor sit amet consectetur adipisicing elit.
